@@ -1,1 +1,145 @@
 /* this style sheet is used for styling cards.html */
+
+
+body{
+    padding : 20px;
+    font-family : san-serif;
+}
+
+.layout{
+    background-color: burlywood;
+    display: grid;
+    height: auto;
+    width: auto;
+
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: red;
+    align-items: center;
+}
+
+/* First card styling */
+
+.card{
+
+    background-color: white;
+    border: solid #f2f2f2;
+    padding: 0px 20px 20px 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: fit-content;
+
+}
+
+.content{
+    display: flex;
+    
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.image{
+    border-top-right-radius: 10px;
+
+}
+
+.title{
+    margin-left: 10px;
+}
+
+
+.action-btn-div{
+    display: flex;
+}
+
+.reaction-btn-div{
+    display : flex;
+    
+}
+
+.action-btn{
+    padding: 5px;
+    margin-inline: 10px;
+    border: none;
+    background-color: white;
+    color: blueviolet;
+    font-size: 1rem;
+}
+
+.reaction-btn{
+    padding: 5px;
+    margin-inline: 10px;
+    border: none;
+}
+
+
+/* first card styling end */
+
+/*basic card start*/
+
+.basic-card-content{
+    border-radius: 10px;
+}
+
+.basic-card-image{
+    max-width: 100%;
+    max-height: auto;
+    object-fit: contain;
+
+}
+
+.basic-card{
+
+    background-color: white;
+    border: solid #f2f2f2;
+    padding: 0px 0px 20px 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: fit-content;
+
+}
+
+
+/*basic card ends*/
+
+/*icon card*/
+.icon-card-reaction-btn-div{
+    display: flex;
+    justify-content: end;
+}
+/*icon card end*/
+
+
+/*title card*/
+
+.title-card-content{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.detail{
+    order: -1;
+}
+/*title card*/
+
+
+
+
+
+
+
