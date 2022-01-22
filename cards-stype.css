@@ -140,3 +140,7 @@ body{
     margin-top: -90px;
     color: white;
 }
+
+button{
+    cursor : pointer;
+}
