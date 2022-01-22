@@ -1,0 +1,49 @@
+
+body{
+    font-size: 62.5%;
+}
+
+.layout{
+    display : grid;
+    background-color: wheat;
+    width: 90%;
+    height: auto;
+    gap: 2rem;
+    grid-template-rows: repeat(2,1fr);
+    padding: 2rem;
+}
+
+
+.container{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.chip{
+    margin: 0.5rem;
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5rem;
+    font-size: large;
+    border-radius: 1.5rem;
+    height: fit-content;
+}
+
+.stack-chip{
+    flex-direction: column;
+}
+
+.stack-chip .chip{
+    width: 20rem;
+}
+
+
+
+
+
+
+
