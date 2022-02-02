@@ -1,0 +1,66 @@
+
+body{
+    /* font-size: 62.5%; */
+}
+
+
+.layout{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    background-color: thistle;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 1rem;
+    gap: 1rem;
+}
+
+
+.container{
+    background-color: whitesmoke;
+}
+
+.header{
+     display: flex; 
+    justify-content: flex-start;
+    align-content: flex-start;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+
+
+.sec-badge{
+    width: 90%;
+    padding: 2rem;
+    /* font-size: 2rem; */
+    background-color: thistle;
+    margin: 2rem;
+}
+
+.div-badge .content{
+    background-color: blue;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.badge{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 11px;
+    min-width: 20px;
+    position: absolute;
+    min-height: 20px;
+    margin-top: -20px;
+    
+}
