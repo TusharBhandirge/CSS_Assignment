@@ -33,8 +33,8 @@ body{
 
     background-color: white;
     border: solid #f2f2f2;
-    padding: 0px 20px 20px 0px;
-    border-radius: 5px;
+    padding: 0rem 2rem 2rem 0px;
+    border-radius: 0.5rem;
     box-sizing: border-box;
     height: fit-content;
 
@@ -48,17 +48,17 @@ body{
 .action{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 2rem;
 
 }
 
 .image{
-    border-top-right-radius: 10px;
+    border-top-right-radius: 1rem;
 
 }
 
 .title{
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 
 
@@ -72,8 +72,8 @@ body{
 }
 
 .action-btn{
-    padding: 5px;
-    margin-inline: 10px;
+    padding: 0.5rem;
+    margin-inline: 1rem;
     border: none;
     background-color: white;
     color: blueviolet;
@@ -81,8 +81,8 @@ body{
 }
 
 .reaction-btn{
-    padding: 5px;
-    margin-inline: 10px;
+    padding: 0.5rem;
+    margin-inline: 1rem;
     border: none;
 }
 
@@ -92,7 +92,7 @@ body{
 /*basic card start*/
 
 .basic-card-content{
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .basic-card-image{
